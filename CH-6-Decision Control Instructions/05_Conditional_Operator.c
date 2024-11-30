@@ -44,13 +44,13 @@ int main()
     int x;
     printf("Enter a Number:");
     scanf("%d",&x);
-    x>0 ?  printf("Positive Number") : printf("Non Positive Number");
+    x>0 ?  printf("Positive") : printf("Non Positive");            // printf(x>0 ?"Positive" :"Non Positive"); ise ase bhi likh sakte hain
 return 0;
 }
 
 Output:
 Enter a Number:34
-Positive Number
+Positive 
 
 
 Example 2 : Write a program to find greater between two numbers.

@@ -26,7 +26,7 @@ return 0;
 4.else block should appear immediately after if block otherwise an error occurred during compilation.
 
 Rule of If else:
-1.Yadi if a block single statement contain kar rha hai jaise ki example 1 mein hai if ke block ke andar humne 
+1.Yadi if ka block single statement contain kar rha hai jaise ki example 1 mein hai if ke block ke andar humne 
 ek hi line likhi hai,ek se jyada bhi likh sakte the lekin agar ek hi line likhi hai toh if ka block curly bracket 
 se bnane ki jarurat nhi hai bnayenge to bhi sahi hai aur na bhi bnaaye to bhi chalega ye understood rhega ki ye
 phla statement jo if ke baad likha hai yhi if block ka hissa hai.

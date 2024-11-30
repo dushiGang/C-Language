@@ -4,14 +4,14 @@
 
 int main()
 {
-    int number, lastDigit;
+    int x,lastdigit;
 
     printf("Enter a number: ");
-    scanf("%d", &number);
+    scanf("%d", &x);
 
-    lastDigit = number % 10;
+     lastdigit= x%10;
 
-    printf("The last digit of %d is %d", number, lastDigit);
+    printf("The last digit of %d is %d", x,lastdigit);
 
     return 0;
 }

@@ -61,21 +61,21 @@ int x;
     printf("Enter a Number:");
     scanf("%d",&x);
  if(x>0)                                        // if mein hume arithmetic instruction hi likhni hai english nhi kyunki compiler arithmetic instruction samjta hai english nhi
-    {
-    printf("Positive Number");
+    {                                           // zero is a neutral number na positive na negative
+    printf("Positive");
     }
  if(x<=0)
     {
-    printf("Non Positive Number");
+    printf("Non Positive");
     }
  return 0;
 }
 Output:
 Enter a Number:34
-Positive Number
+Positive 
        OR
 Enter a Number:-23
-Non Positive Number
+Non Positive 
 
 NOTE: Example 3 mein kitne decleartion statement hai aur kitne action statement?
 Ans. Declaration Statement= 1
